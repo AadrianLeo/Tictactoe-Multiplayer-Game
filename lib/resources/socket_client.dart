@@ -6,7 +6,7 @@ class SocketClient {
   static SocketClient? _instance;
 
   SocketClient._internal() {
-    socket = IO.io('https://tictaktoe-server.herokuapp.com/', <String, dynamic>{
+    socket = IO.io('https:<YOUR IP ADDRESS>:3000 or YOUR HOSTED SERVER LINK', <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false,
     });
