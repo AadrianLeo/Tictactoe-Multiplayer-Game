@@ -1,16 +1,12 @@
 # mp_tictactoe
 
-A new Flutter project.
+This is an Online multiplayer Tictacktoe game where two player can play simultaneously. Whoever gets 6 points of score first wins the game. one player have to create a room and others have to join the room my inputing rooms ID number given by the player1(Who has created the room). The Project in coded in flutter language and javacsript and nodejs is used for backend/server. and mongoDB is used for Database to store the player's details.
 
-## Getting Started
+![tictactoe](https://user-images.githubusercontent.com/81036521/172338656-0d38dc3c-3f3f-442b-9912-b44b4d462f34.JPG)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+APK LINK COMMING SOON....
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### `#For flutter packages run: pub get  && to run flutter project run : flutter run  or in vscode click on run from the banner and click on run without debugging or start degugging.`
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### `# for packages of server go in server directory and run npm i or npm install.`
