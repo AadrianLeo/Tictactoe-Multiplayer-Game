@@ -15,7 +15,7 @@ var io = require('socket.io').listen(server);
 // middle ware
 app.use(express.json());
 
-const DB = 'mongodb+srv://Aadrianleo:aadrianleo069@cluster0.kqrjhu1.mongodb.net/?retryWrites=true&w=majority';
+const DB = 'MongoBD_CLUSTER_CONNECTION';
 
 io.on('connection', (socket) => {
     console.log("connected");
